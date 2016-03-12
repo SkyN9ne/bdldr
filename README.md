@@ -29,8 +29,7 @@ root@c170c568a803:~/pin-2.14-71313-gcc.4.4.7-linux# cat bbcount.json
 
 Also with an UPX binary:
 ```
-root@c170c568a803:~/pin-2.14-71313-gcc.4.4.7-linux# ./pin.sh -ifeellucky -t source/tools/MyPinTool/obj-intel64/MyPinTool.so -- /root/bdldr/bdldr_cli 
-/root/clamav_test/split.clam-upx.exeaa 
+root@c170c568a803:~/pin-2.14-71313-gcc.4.4.7-linux# ./pin.sh -ifeellucky -t source/tools/MyPinTool/obj-intel64/MyPinTool.so -- /root/bdldr/bdldr_cli /root/clamav_test/split.clam-upx.exeaa 
 Initializing BD core ...
 Initializing BD core instance ...
 Setting up instance ...
